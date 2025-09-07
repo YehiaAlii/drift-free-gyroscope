@@ -29,8 +29,9 @@ An Android application implementing Extended Kalman Filter (EKF) for accurate gy
 - **Sensor Fusion Algorithm**: Combines multiple IMU sensors for robust orientation tracking
 - **ZUPT Algorithm**: Detects stationary periods to correct accumulated drift
 
-## Project Structure
 ```
+## Project Structure
+
 src/main/java/com/example/kalmanfilter/
 ├── Constants.kt # Configuration constants
 ├── ExtendedKalmanFilter.kt # EKF mathematical implementation
