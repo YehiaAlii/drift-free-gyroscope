@@ -32,7 +32,6 @@ An Android application implementing Extended Kalman Filter (EKF) for accurate gy
 ## Project Structure
 
 ```
-
 src/main/java/com/example/kalmanfilter/
 ├── Constants.kt # Configuration constants
 ├── ExtendedKalmanFilter.kt # EKF mathematical implementation
@@ -41,3 +40,32 @@ src/main/java/com/example/kalmanfilter/
 ├── GraphScreens.kt # Visualization components
 └── MainActivity.kt # Sensor management & app lifecycle
 ```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio Arctic Fox or newer
+- Android device with API level 23+
+- Device sensors: Gyroscope, Accelerometer, Magnetometer
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YehiaAlii/drift-free-gyroscope.git
+   ```
+2. Open in Android Studio
+3. Build and run on your Android device
+4. Grant sensor permissions when prompted
+
+```markdown
+## Usage
+
+1. **Launch the app** on your Android device
+2. **Grant permissions** for sensor access
+3. **Observe real-time data**:
+   - Raw gyroscope readings
+   - Integrated angles (with drift)
+   - EKF filtered angles (drift-corrected)
+4. **View graphs** by tapping the chart icon
+5. **Reset orientation** using the Reset θ button
+
