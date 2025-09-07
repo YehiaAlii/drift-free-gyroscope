@@ -80,3 +80,13 @@ src/main/java/com/example/kalmanfilter/
 - **Motion Detection**: Analyzes gyroscope magnitude to detect stationary periods
 - **Bias Estimation**: Updates gyroscope bias during stationary phases
 - **Drift Correction**: Prevents long-term orientation drift
+
+## Screenshots
+
+<div align="center">
+  <img src="screenshots/main_screen.png" width="280" alt="Main Sensor Screen">
+  <img src="screenshots/angular_velocity_graph.png" width="280" alt="Angular Velocity Graph">
+  <img src="screenshots/filtered_angles_graph.png" width="280" alt="Integrated and EKF Filtered Data">
+</div>
+
+*Real-time sensor data, angular velocity tracking, and EKF-filtered orientation with drift correction*
