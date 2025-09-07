@@ -84,9 +84,9 @@ src/main/java/com/example/kalmanfilter/
 ## Screenshots
 
 <div align="center">
-  <img src="screenshots/main_screen.png" width="280" alt="Main Sensor Screen">
-  <img src="screenshots/angular_velocity_graph.png" width="280" alt="Angular Velocity Graph">
-  <img src="screenshots/filtered_angles_graph.png" width="280" alt="Integrated and EKF Filtered Data">
+  <img src="screenshots/main_screen.jpg" width="280" alt="Main Sensor Screen">
+  <img src="screenshots/angular_velocity_graph.jpg" width="280" alt="Angular Velocity Graph">
+  <img src="screenshots/integrated_filtered_angles_graph.png" width="280" alt="Integrated and EKF Filtered Data">
 </div>
 
 *Real-time sensor data, angular velocity tracking, and EKF-filtered orientation with drift correction*
