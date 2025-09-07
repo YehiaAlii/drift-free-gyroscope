@@ -41,7 +41,7 @@ src/main/java/com/example/kalmanfilter/
 └── MainActivity.kt # Sensor management & app lifecycle
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Android Studio Arctic Fox or newer
@@ -68,3 +68,15 @@ src/main/java/com/example/kalmanfilter/
 4. **View graphs** by tapping the chart icon
 5. **Reset orientation** using the Reset θ button
 
+## Details
+
+### Extended Kalman Filter Implementation
+- **State Vector**: `[roll, pitch, yaw, bias_gyro_x, bias_gyro_y, bias_gyro_z]`
+- **Prediction Step**: Uses gyroscope data with bias correction
+- **Update Step**: Incorporates accelerometer and magnetometer measurements
+- **Dynamic Tuning**: Adapts noise parameters based on motion characteristics
+
+### ZUPT (Zero Velocity Update)
+- **Motion Detection**: Analyzes gyroscope magnitude to detect stationary periods
+- **Bias Estimation**: Updates gyroscope bias during stationary phases
+- **Drift Correction**: Prevents long-term orientation drift
