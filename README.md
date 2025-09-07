@@ -14,3 +14,28 @@ An Android application implementing Extended Kalman Filter (EKF) for accurate gy
 - **Multi-Sensor Fusion**: Combines gyroscope, accelerometer, and magnetometer data
 - **Real-time Visualization**: Live graphs showing raw sensor data vs filtered results
 - **Bias Estimation**: Automatic gyroscope bias correction and calibration
+
+## Technical Implementation
+
+### Core Technologies
+- **Language**: Kotlin
+- **UI Framework**: Jetpack Compose  
+- **Architecture**: Clean separation of concerns with modular components
+- **Sensor Processing**: Real-time sensor fusion with mathematical filtering
+
+### Mathematical Foundation
+- **Extended Kalman Filter**: 6-state implementation (roll, pitch, yaw + gyro biases)
+- **Dynamic Noise Adjustment**: Adapts filter parameters based on motion intensity
+- **Sensor Fusion Algorithm**: Combines multiple IMU sensors for robust orientation tracking
+- **ZUPT Algorithm**: Detects stationary periods to correct accumulated drift
+
+## Project Structure
+```
+src/main/java/com/example/kalmanfilter/
+├── Constants.kt # Configuration constants
+├── ExtendedKalmanFilter.kt # EKF mathematical implementation
+├── SensorReading.kt # Data structures
+├── SensorScreens.kt # Main UI components
+├── GraphScreens.kt # Visualization components
+└── MainActivity.kt # Sensor management & app lifecycle
+```
