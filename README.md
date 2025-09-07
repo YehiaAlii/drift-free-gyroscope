@@ -57,7 +57,6 @@ src/main/java/com/example/kalmanfilter/
 3. Build and run on your Android device
 4. Grant sensor permissions when prompted
 
-```markdown
 ## Usage
 
 1. **Launch the app** on your Android device
